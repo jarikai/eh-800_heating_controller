@@ -57,19 +57,7 @@ class EH800Sensor(CoordinatorEntity[EH800Coordinator]):
         """Sensor initialization."""
         super().__init__(coordinator)
         self.key = key
-        # handle home away
-        if key == "S_135_85":
-            away_status = "unknown"
-            away_val = coordinator.data[key]
-            if away_val == 0:
-                away_status = "home"
-            elif away_val == 1:
-                away_status = "away"
-            else:
-                away_status = "not in use"
-            self._value = away_status
-        else:
-            self._value = coordinator.data[key]
+        self._value = coordinator.data[key]
         self._description = SENSOR_DESCRIPTIONS[key]
         self._attr_unique_id = f"{coordinator.ip}_{key}"  # unique & never changes
 
