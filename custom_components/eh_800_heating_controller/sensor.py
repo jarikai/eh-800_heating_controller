@@ -111,7 +111,7 @@ class EH800Sensor(CoordinatorEntity[EH800Coordinator]):
             return DeviceInfo(
                 identifiers={(DOMAIN, confentry.entry_id)},
                 name=DEVICE_NAME,
-                manufacturer="Ouman Oy",
+                manufacturer="Jari Kaipio",
                 model=DEVICE_NAME,
                 configuration_url=f"http://{self.coordinator.ip}/",
                 entry_type=DeviceEntryType.SERVICE,
