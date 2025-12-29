@@ -1,5 +1,6 @@
 {
   "domain": "eh_800_heating_controller",
+  "name": "EH-800 Heating Controller",
   "codeowners": [
     "@jarikai"
   ],
@@ -7,7 +8,6 @@
   "documentation": "https://github.com/jarikai/eh-800_heating_controller",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/jarikai/eh-800_heating_controller/issues",
-  "name": "EH-800 Heating Controller",
   "requirements": [
     "aiohttp"
   ],
