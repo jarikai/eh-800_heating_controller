@@ -32,7 +32,7 @@ To install this integration manually:
 
 ## TODO
 1. Make changes to be approved to HACS
-2. Make finnish transaltions
+2. Make finnish translations
 
 ## Contributing
 Contributions to this integration are welcome. Please refer to the project's GitHub repository for contributing guidelines.
