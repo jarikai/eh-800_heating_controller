@@ -223,4 +223,18 @@ SENSOR_DESCRIPTIONS = {
         "unit_of_measurement": "°C",
         "state_class": "measurement",
     },
+    "S_284_85": {
+        "name": "Room Temperature",
+        "icon": "mdi:thermometer-low",
+        "device_class": "temperature",
+        "unit_of_measurement": "°C",
+        "state_class": "measurement",
+    },
+    "S_274_85": {
+        "name": "Room Temperature Finetune",
+        "icon": "mdi:thermometer-low",
+        "device_class": "temperature",
+        "unit_of_measurement": "°C",
+        "state_class": "measurement",
+    },
 }
