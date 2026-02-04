@@ -2,7 +2,7 @@
     "config": {
         "step": {
             "user": {
-                "description": "If you need help with the configuration have a look here: https://github.com/jarikai/eh-800_heating_controller",
+                "description": "Set up your EH-800 Heating Controller integration by providing your login credentials.",
                 "data": {
                     "username": "Username",
                     "password": "Password"
