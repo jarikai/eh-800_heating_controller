@@ -1,5 +1,6 @@
 # Home Assistant integration for Ouman EH-800 heating controller
 This Home Assistant integration provides data read from [EH-800 heating controller](https://ouman.fi/en/product/ouman-eh-800-and-eh-800b/).
+The code is not made or tested by Ouman Oy.
 
 ![Screenshot of integration](/media/eh800_ui.png)
 ## Why?
